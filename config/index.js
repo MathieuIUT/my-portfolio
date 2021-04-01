@@ -1,14 +1,14 @@
 module.exports = {
   //-- SITE SETTINGS -----
-  author: "@konstantinmuenster",
-  siteTitle: "Gatsby Starter Portfolio Minimal",
-  siteShortTitle: "Gatsby", // Used as logo text in header, footer, and splash screen
+  author: "@mathieucisse",
+  siteTitle: "Workflow Mathieu Cissé",
+  siteShortTitle: "Workflow", // Used as logo text in header, footer, and splash screen
   siteDescription:
-    "A modern one-page portfolio with a clean yet expressive design.",
-  siteUrl: "https://gatsby-starter-portfolio-minimal.netlify.app/",
-  siteLanguage: "en_US",
+    "C'est un workshop créé dans le cadre d'une intervention",
+  siteUrl: "https://proud-smoke-079d7e503.azurestaticapps.net",
+  siteLanguage: "fr_FR",
   siteIcon: "content/favicon.png", // Relative to gatsby-config file
-  seoTitleSuffix: "Portfolio Minimal", // SEO title syntax will be e.g. "Imprint - {seoTitleSuffix}"
+  seoTitleSuffix: "Workflow Minimal", // SEO title syntax will be e.g. "Imprint - {seoTitleSuffix}"
   
   // -- THEME SETTINGS -----
   colors: {
@@ -18,7 +18,7 @@ module.exports = {
       tertiary: "#F2F2F2",
       text: "#000000",
       subtext: "#555555",
-      background: "#FFFFFF",
+      background: "#DCDCDC",
       card: "#FFFFFF",
       scrollBar: "rgba(0, 0, 0, 0.5)",
       boxShadow: "rgba(0, 0, 0, 0.16)",
@@ -44,35 +44,32 @@ module.exports = {
   //-- ARTICLES SECTION SETTINGS -----
   // You can create your own Medium feed with this rss to json converter: https://rss2json.com/
   // To access your Medium RSS feed, just replace this url with your username: https://medium.com/feed/@{yourname}
+  /*
   rssFeed:
     "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40konstantinmuenster",
 
   shownArticles: 3,
-
+  */
   //-- SOCIAL MEDIA SETTINGS -----
   // There are icons available for the following platforms:
   // Medium, GitHub, LinkedIn, XING, Behance, E-Mail
   socialMedia: [
     {
       name: "Linkedin",
-      url: "https://www.linkedin.com/in/konstantin-muenster/",
-    },
-    {
-      name: "Medium",
-      url: "https://konstantinmuenster.medium.com/",
+      url: "https://fr.linkedin.com/in/mathieu-ciss%C3%A9-20a5721b3",
     },
     {
       name: "Github",
       url:
-        "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal",
+        "https://github.com/MathieuIUT/my-portfolio",
     },
-    {
-      name: "Behance",
-      url: "https://www.behance.net/konstanmnster",
-    },
+    //{
+    //  name: "Behance",
+    //  url: "https://www.behance.net/konstanmnster",
+    //},
     // {
     //   name: "Mail",
-    //   url: "mailto:mail@konstantin.digital",
+    //   url: "mathieu.cisse@etu.unistra.fr",
     // },
   ],
 
